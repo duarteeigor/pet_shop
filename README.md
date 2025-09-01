@@ -14,4 +14,7 @@ Passos a serem seguidos
 3- Instalar as libs que serao utilizadas: react-router, react-hot-toast
 
 4- instalar a lib para consumir a fake api utilizando: npm install -g json-server
-4.1 - consumir o json simulando uma api com o comando: json-server --watch db.json
+    4.1 - consumir o json simulando uma api com o comando: json-server --watch db.json
+    4.2- instalar o axios para consumir a "api"
+
+5- instalar lib react-icons

@@ -1,6 +1,6 @@
 import {createBrowserRouter } from "react-router";
 import { Home } from "./pages/home";
-import { Carrinho } from "./pages/carrinho";
+import { Cart } from "./pages/cart";
 import { Layout } from "./layout";
 
 const router = createBrowserRouter([
@@ -13,7 +13,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "/carrinho",
-                element: <Carrinho />
+                element: <Cart />
             }
         ]
     }
