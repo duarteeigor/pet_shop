@@ -9,7 +9,8 @@ export interface ProductsProps{
     id: number,
     title: string,
     price: number,
-    cover: string
+    cover: string,
+    description: string
 }
 
 export function Home(){
@@ -40,6 +41,7 @@ export function Home(){
                     return(
                         <Card
                             key={item.id}
+                            id={item.id}
                             cover= {item.cover}
                             price={item.price}
                             title={item.title}
